@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(https://primelaser.com.ua/wp-content/uploads/2021/05/1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.header__body-logo { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+    font-size: 17px;
+    color: rgb(241, 245, 242);/*  
+    border: 1px solid rgb(255, 102, 102); */ 
+    transition: 0.7s; 
+    padding: 40px 0 0 50px; 
+    cursor: pointer; 
+  } 
+.header__body-logo:hover{ 
+    color: #989898; 
+   } 
+.logo-inside{ 
+    color: #767676; 
+    font-size: 25px; 
+    transition: 0.7s; 
+    text-transform: uppercase; 
+   } 
+.header__body-logo:hover .logo-inside {
+    color: #767676;
+}
+.zagolovoc { 
+    color: #C6C4C4; 
+    text-align: center; 
+    margin-top: 80px; 
+    margin: 50px; 
+  } 
+.border-logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.border { 
+    background-color: #24242486;
+    border: 1px solid #989898; 
+    width: 600px; 
+    height: 200px; 
+    padding: 50px; 
+    display: inline-block; 
+}
+
+.section-img {
+    width: 60px;
+    height: 60px;
+    padding: 30px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-txt-one {
+    text-align: center;
+    font-size: 38px;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #2E2A2A;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.section-btn {
+    border: 0px;
+    border-radius: 10px;
+    background: #D7D6D6;
+    width: 120px;
+    height: 45px;
+    display: flex;
+    margin: 100px auto;
+    transition: .3s;
+}
+
+.section-btn:hover {
+    background: #C6C4C4;
+}
+
+.btn-link {
+    padding: 5px;
+    color: #2E2A2A;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.section-div-one {
+    margin: 70px 130px 0 0;
+}
+
+.section-div-one:nth-child(4) {
+    margin: 70px 0 0 0;
+}
+
+.txt-span-one {
+    margin: 12px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.hr {
+    width: 1000px;
+    border-radius: 40%;
+}
+
+.hr-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.txt-con-one {
+    text-align: center;
+    margin: 110px 0 0 0;
+}
+
+.section-two-txt {
+    margin: 0 0 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #2E2A2A;
+}
+
+.section-two-sub-txt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.card-container {
+    display: inline-block;
+}
+
+.card {
+    background-image: url(https://www.shutterstock.com/image-vector/barber-shop-logo-pole-vintage-600w-1374270329.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.637);
+    position: absolute;
+    width: 300px;
+    height: 0%;
+    transition: 1.5s;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.card:hover .layer {
+    height: 100%;
+    transition: .5s;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-button {
+    text-align: center;
+    padding: 80px 0;
+    color: white;
+    font-size: 17px;
+    transition: 1s;
+}
+
+.card-btn {
+    border: 0;
+    height: 40px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.card-btn:hover {
+    background-color: rgb(167, 165, 165);
+    cursor: pointer;
+}
+
+.main-container {
+    margin: 100px auto 0;
+    width: 1000px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-btn-link {
+    color: #2E2A2A;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #767676;
+}
+
+.footer-txt {
+    text-align: center;
+    padding: 34px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #353535;
+}
+
+.footer-span-one {
+    color: #242424;
+}
