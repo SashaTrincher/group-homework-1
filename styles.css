@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -63,6 +64,10 @@
 
 a {
     text-decoration: none;
+}
+
+.main {
+    margin-top: 180px;
 }
 
 .section-txt-one {
@@ -215,6 +220,7 @@ a {
 }
 
 .footer {
+    margin-top: 90px;
     height: 100px;
     background-color: #767676;
 }
@@ -225,9 +231,9 @@ a {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 30px;
-    color: #353535;
+    color: #fff;
 }
 
 .footer-span-one {
-    color: #242424;
+    color: rgb(211, 211, 211)
 }
