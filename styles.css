@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 .header {
+    margin-bottom: 120px;
     background-image: url(https://primelaser.com.ua/wp-content/uploads/2021/05/1-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,10 +64,6 @@
 
 a {
     text-decoration: none;
-}
-
-.main {
-    margin-top: 120px;
 }
 
 .section-txt-one {
@@ -220,7 +216,7 @@ a {
 }
 
 .footer {
-    margin-top: 90px;
+    margin-top: 70px;
     height: 100px;
     background-color: #767676;
 }
@@ -235,5 +231,5 @@ a {
 }
 
 .footer-span-one {
-    color: rgb(211, 211, 211)
+    color: rgb(211, 211, 211);
 }
